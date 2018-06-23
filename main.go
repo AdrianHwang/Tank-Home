@@ -20,6 +20,7 @@ func ignoreStaticPath(){
 }
 
 func TransparentStatic(ctx *context.Context){
+	// 测试
 	orPath:=ctx.Request.URL.Path
 	beego.Debug("request url:", orPath)
 
